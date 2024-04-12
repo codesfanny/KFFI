@@ -31,7 +31,7 @@ function AboutKffi() {
           <View style={styles.imgContainer}>
             <Image
               style={styles.stretch}
-              source={require('../images/KFFI-temp-Logo.png')}
+              source={require('../images/inclusivity.png')}
             />
           </View>
           <Text style={styles.subSubText}> INCLUSIVITY </Text>
@@ -44,7 +44,7 @@ function AboutKffi() {
           <View style={styles.imgContainer}>
             <Image
               style={styles.stretch}
-              source={require('../images/KFFI-temp-Logo.png')}
+              source={require('../images/quality.png')}
             />
           </View>
           <Text style={styles.subSubText}> QUALITY </Text>
@@ -57,7 +57,7 @@ function AboutKffi() {
           <View style={styles.imgContainer}>
             <Image
               style={styles.stretch}
-              source={require('../images/KFFI-temp-Logo.png')}
+              source={require('../images/support.png')}
             />
           </View>
           <Text style={styles.subSubText}> SUPPORT </Text>
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
   textHeading: {
     fontSize: 40,
     color: '#0D0447',
-    fontWeight: '700',
+    fontWeight: '900',
     paddingHorizontal: 40,
     marginTop: 40,
     textAlign: 'center'
@@ -120,10 +120,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   stretch: {
-    width: 100,
-    height: 100,
+    width: 60,
+    height: 60,
     margin: 'auto',
     alignItems: 'center',
+    tintColor: '#aa0000'
   },
 })
 
